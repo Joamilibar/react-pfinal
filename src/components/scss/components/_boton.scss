@@ -1,0 +1,38 @@
+.boton_contacto {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 2.5rem;
+    grid-template-columns: 7fr 7fr;
+    grid-template-areas:  
+    "col1   col2";
+    margin: .3125rem;
+
+    button {
+        color: ghostwhite;
+        border-color: #928450;
+        background-color: #928450;
+        margin-bottom: .3125rem;
+    }
+}
+
+.boton_tcompra {
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 2.5rem;
+    grid-template-columns: 7fr 7fr;
+    grid-template-areas:  
+    "col1   col2";
+    margin: .3125rem;
+
+    button {
+        display: grid;
+        grid-area: col1;
+        color: ghostwhite;
+        border-color: #928450;
+        background-color: #928450;
+        margin-bottom: .3125rem;
+}
+}
+
